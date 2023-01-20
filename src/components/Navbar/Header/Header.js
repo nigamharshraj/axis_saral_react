@@ -6,7 +6,9 @@ const Header = () => {
     return (
         <div>
       <header>
-        <h1 className="header-wrapper">AXIS BANK</h1>
+       
+        
+        <h1>Welcome to Axis Saral Portal</h1>
       </header>
       </div>
     );

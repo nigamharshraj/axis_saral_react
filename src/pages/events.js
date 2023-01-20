@@ -5,12 +5,12 @@ return (
 	<div
 	style={{
 		display: 'flex',
-		justifyContent: 'Right',
+		justifyContent: 'Center',
 		alignItems: 'Right',
 		height: '100vh'
 	}}
 	>
-	<h1>Welcome to Axis Saral</h1>
+	<h1>Ongoing Projects</h1>
 	</div>
 );
 };

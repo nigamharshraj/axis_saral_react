@@ -15,22 +15,31 @@ return (
 		<Bars />
 
 		<NavMenu>
-		<NavLink to='/about' activeStyle>
+
+		<NavLink to='/header' activeClassName="active-link" style={{color: 'white' , fontWeight: "bold"}}>
+			<h1>AXIS BANK</h1> 
+		</NavLink>
+
+		
+        
+
+
+		<NavLink to='/about' activeClassName="active-link">
 			About
 		</NavLink>
-		<NavLink to='/events' activeStyle>
+		<NavLink to='/events' activeClassName="active-link">
 			Events
 		</NavLink>
-		<NavLink to='/annual' activeStyle>
+		<NavLink to='/annual' activeClassName="active-link">
 			Annual Report
 		</NavLink>
-		<NavLink to='/team' activeStyle>
+		<NavLink to='/team' activeClassName="active-link">
 			Teams
 		</NavLink>
-		<NavLink to='/blogs' activeStyle>
+		<NavLink to='/blogs' activeClassName="active-link">
 			Blogs
 		</NavLink>
-		<NavLink to='/sign-up' activeStyle>
+		<NavLink to='/sign-up' activeClassName="active-link">
 			Sign Up
 		</NavLink>
 		{/* Second Nav */}

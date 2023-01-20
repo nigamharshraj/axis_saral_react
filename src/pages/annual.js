@@ -5,12 +5,12 @@ return (
 	<div
 	style={{
 		display: 'flex',
-		justifyContent: 'Right',
+		justifyContent: 'Center',
 		alignItems: 'Right',
 		height: '100vh'
 	}}
 	>
-	<h1>Annual Report</h1>
+	<h1>Annual Report of projects</h1>
 	</div>
 );
 };
